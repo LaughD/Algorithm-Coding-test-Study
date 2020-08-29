@@ -4,6 +4,12 @@
     이분탐색: 징검다리(Level4)
     link: https://programmers.co.kr/learn/courses/30/lessons/43236
 '''
+'''
+    Edited on Aug 29, 2020
+    modified content: 인코딩 방식 수정(한글 주석 깨짐 수정)
+        before => ANSI
+        after => UTF-8
+'''
 def solution(distance, rocks, n):
     if len(rocks) == n:
         return distance
