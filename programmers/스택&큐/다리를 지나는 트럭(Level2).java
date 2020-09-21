@@ -1,8 +1,14 @@
 /*
-    Code written on Aug 21, 2020
+    Code written on Sep 21, 2020
     출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
     스택/큐: 다리를 지나는 트럭(Level2)
     link: https://programmers.co.kr/learn/courses/30/lessons/42583
+*/
+/*
+    Edited on Sep 21, 2020
+    modified content: 작성일 정보 오류 수정
+        before => Code written on Aug 21, 2020
+        after => Code written on Sep 21, 2020
 */
 import java.util.ArrayDeque;
 
