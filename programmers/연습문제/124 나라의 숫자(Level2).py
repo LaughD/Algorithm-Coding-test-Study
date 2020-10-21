@@ -4,6 +4,25 @@
     연습문제: 124 나라의 숫자(Level2)
     link: https://programmers.co.kr/learn/courses/30/lessons/12899
 '''
+'''
+    Edited on Oct 21, 2020
+    modified content: Code refactoring
+'''
+from collections import deque
+
+def solution(n):
+    queue = deque()
+    while n:
+        mod = n % 3
+        n //= 3
+        if not mod:
+            n -= 1
+            mod = 4
+        queue.appendleft(str(mod))
+    return ''.join(queue)
+
+
+'''
 from collections import deque
 
 def solution(n):
@@ -18,3 +37,4 @@ def solution(n):
     if n:
         queue.appendleft(str(n))
     return ''.join(queue)
+'''
