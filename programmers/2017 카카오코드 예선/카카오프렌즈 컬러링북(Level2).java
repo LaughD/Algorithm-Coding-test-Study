@@ -1,8 +1,14 @@
 /*
     Code written on Oct 22, 2020
     출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
-    연습문제: 카카오프렌즈 컬러링북(Level2)
+    2017 카카오코드 예선: 카카오프렌즈 컬러링북(Level2)
     link: https://programmers.co.kr/learn/courses/30/lessons/1829
+*/
+/*
+    Edited on Oct 22, 2020
+    modified content: 문제 출처 수정
+        before => 연습문제
+        after => 2017 카카오코드 예선
 */
 import java.util.ArrayDeque;
 
