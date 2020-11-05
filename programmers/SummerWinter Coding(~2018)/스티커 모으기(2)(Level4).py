@@ -4,6 +4,12 @@
     Summer/Winter Coding(~2018): 스티커 모으기(2)(Level4)
     link: https://programmers.co.kr/learn/courses/30/lessons/12971
 '''
+'''
+    Edited on Nov 6, 2020
+    modified content: 변수 이름 변경
+        before => tail_choice_case
+        after => head_no_choice_case
+'''
 def solution(sticker):
     if len(sticker) == 1:
         return sticker.pop()
@@ -18,6 +24,6 @@ def solution(sticker):
     prev = now = 0
     for num in sticker:
         prev, now = now, max(prev+num, now)
-    tail_choice_case = now
+    head_no_choice_case = now
 
-    return max(head_choice_case, tail_choice_case)
+    return max(head_choice_case, head_no_choice_case)
