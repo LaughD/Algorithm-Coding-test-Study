@@ -1,4 +1,11 @@
-rom sys import stdin
+"""
+    Code written on Dec 31, 2020
+    출처: Baekjoon OJ, https://www.acmicpc.net
+    10989번: 수 정렬하기 3
+    link: https://www.acmicpc.net/problem/10989
+"""
+# 2nd Solution: Reduced number of repetitions(print)
+from sys import stdin
 
 
 count = int(stdin.readline())
