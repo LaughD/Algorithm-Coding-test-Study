@@ -2,7 +2,7 @@
     Code written on Jan 1, 2021
     출처: Baekjoon OJ, https://www.acmicpc.net
     01904번: 01타일
-    link: https://www.acmicpc.net/problem/status/1904
+    link: https://www.acmicpc.net/problem/1904
 """
 from sys import stdin
 
