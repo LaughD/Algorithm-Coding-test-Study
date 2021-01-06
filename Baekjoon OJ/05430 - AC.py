@@ -30,8 +30,8 @@ for _ in range(int(stdin.readline())):
     else:
         array = array[left:right]
         if is_reversed:
-            results.append('[' + ','.join(array[::-1]) + ']')
+            results.append(f"[{','.join(reversed(array))}]")
         else:
-            results.append('[' + ','.join(array) + ']')
+            results.append(f"[{','.join(array)}]")
 
 print('\n'.join(results))
