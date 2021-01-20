@@ -16,9 +16,9 @@ def bfs():
         size = len(queue)
         for _ in range(size):
             number = queue.popleft()
-            if min_number <= number <= max_number and prime_numbers[number]:
+            if (min_number <= number <= max_number) and (prime_numbers[number]):
                 return f"{count}"
-            for next_number in (number//2, number//3, number+1):
+            for next_number in (number//2, number//3):
                 if next_number not in checked:
                     queue.append(next_number)
                     checked.add(next_number)
@@ -27,6 +27,11 @@ def bfs():
                 if next_number not in checked:
                     queue.append(next_number)
                     checked.add(next_number)
+            if number < max_number:
+                next_number = number + 1
+                if next_number not in checked:
+                    queue.append(next_number)
+                    checked.add(next_number)                
         count += 1
 
 
