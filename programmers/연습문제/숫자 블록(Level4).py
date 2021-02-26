@@ -13,7 +13,7 @@ def solution(begin, end):
     return array
 
 
-def get_lpd(number):    # lpd means largest proper divisor
+def get_lpd(number):    # 'lpd' means the largest proper divisor
     for d in range(2, int(number**0.5) + 1):
         if (not number % d) and (number // d <= 10000000):
             return number // d
