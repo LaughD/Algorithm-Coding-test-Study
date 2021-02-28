@@ -6,6 +6,7 @@
 """
 
 
+# As of February 28, 2021, it is not an edited code.
 def print_primes(start, end):
     is_prime = [True] * (end + 1)
     is_prime[1] = False
