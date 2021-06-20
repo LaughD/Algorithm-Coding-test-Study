@@ -24,7 +24,7 @@
 
     > Commit message for correcting typos in the documentation or correcting errors in the code.
 
-    Ex) Fix typo June 20, 2021
+    Ex) Fix typo on June 20, 2021
 
   - `Refactor` <~> `on date`
    
